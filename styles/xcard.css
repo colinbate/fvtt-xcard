@@ -1,0 +1,7 @@
+#xcard.app.window-app {
+    box-shadow: none;
+}
+
+#xcard.app.window-app .window-content img {
+    border: none;
+}

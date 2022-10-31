@@ -1,43 +1,42 @@
 {
-  "name": "x-card-rpg",
-  "title": "X-Card Rpg",
-  "description": "Yet another module for Foundry VTT that implements the X-Card safety tool by John Stavropoulos. http://tinyurl.com/x-card-rpg. This module adds the possibility to broadcast an x-card during the game at any time. A button is added to the basic controls to do this. You also have the possibility to provide your own x-card image. Finally a message is added to the chat window when the button is clicked.",
-  "author": "Aurélien Chappard (Deefuse)",
-  "version": "1.0.2",
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "9",
+  "id": "xcard",
+  "title": "X Card",
+  "description": "Is there a topic that has come up that you are uncomfortable with? Toss down a virtual X card to halt and change topic.",
+  "authors": [
+    { "name": "Colin Bate" }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10
+  },
   "esmodules": [
-    "./scripts/x-card-rpg.js"
+    "./scripts/xcard.js"
   ],
   "styles" : [
-    "./css/x-card-rpg.css"
-  ],
-  "dependencies": [
-    {
-      "name": "settings-extender"
-    }
+    "./styles/xcard.css"
   ],
   "socket": true,
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "languages/en.json"
     },
     {
       "lang": "fr",
       "name": "Français",
-      "path": "lang/fr.json"
+      "path": "languages/fr.json"
     },
     {
       "lang": "de",
       "name": "Deutsch",
-      "path": "lang/de.json"
+      "path": "languages/de.json"
     }
   ],
-  "bugs": "https://github.com/achappard/fvtt-x-card-rpg/issues",
-  "changelog": "https://github.com/achappard/fvtt-x-card-rpg/releases",
-  "url": "https://github.com/achappard/fvtt-x-card-rpg",
-  "manifest": "https://github.com/achappard/fvtt-x-card-rpg/releases/latest/download/module.json",
-  "download": "https://github.com/achappard/fvtt-x-card-rpg/releases/download/v1.0.2/x-card-rpg.zip"
+  "bugs": "https://github.com/colinbate/fvtt-xcard/issues",
+  "changelog": "https://github.com/colinbate/fvtt-xcard/releases",
+  "url": "https://github.com/colinbate/fvtt-xcard",
+  "manifest": "https://github.com/colinbate/fvtt-xcard/releases/latest/download/module.json",
+  "download": "https://github.com/colinbate/fvtt-xcard/releases/download/v1.0.0/xcard.zip"
 }
